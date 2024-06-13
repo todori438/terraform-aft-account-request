@@ -21,7 +21,7 @@ module "account_request_sre_perf" {
 
   change_management_parameters = {
     change_requested_by = "AWS Control Tower Lab"
-    change_reason       = "Learn AWS Control Tower Account Factory for Terraform (AFT)"
+    change_reason       = "AWS Control Tower Account Factory for Terraform (AFT)"
   }
 
   custom_fields = {
