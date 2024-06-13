@@ -3,7 +3,7 @@ module "account_request_sre_perf" {
 
   control_tower_parameters = {
     AccountEmail              = "tivanov+perf@quickbase.com"
-    AccountName               = "sre-lab-perf"
+    AccountName               = "sre-lab-perf" 
     ManagedOrganizationalUnit = "ou-3836-qczvh7y7"
     SSOUserEmail              = "tivanov@quickbase.com"
     SSOUserFirstName          = "Todor"
