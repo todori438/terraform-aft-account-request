@@ -1,5 +1,5 @@
 module "account_request_sre_perf" {
-  source = "../terraform-aws-control_tower_account_factory/sources/aft-customizations-repos/aft-account-request/terraform/modules/aft-account-request"
+  source = "./modules/aft-account-request"
 
   control_tower_parameters = {
     AccountEmail              = "tivanov+perf@quickbase.com"
