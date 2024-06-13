@@ -26,7 +26,6 @@ module "account_request_sre_perf" {
 
   custom_fields = {
     group = "non-prod"
-    random = "test"
   }
 
   account_customizations_name = "sanbox"
