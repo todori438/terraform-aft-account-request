@@ -3,7 +3,7 @@ module "account_request_sre_perf" {
 
   control_tower_parameters = {
     AccountEmail              = "tivanov+perf@quickbase.com"
-    AccountName               = "sre-lab2"
+    AccountName               = "sre-lab-perf"
     ManagedOrganizationalUnit = "ou-3836-qczvh7y7"
     SSOUserEmail              = "tivanov@quickbase.com"
     SSOUserFirstName          = "Todor"
@@ -14,7 +14,7 @@ module "account_request_sre_perf" {
     "ABC:Owner"       = "tivanov@quickbase.com"
     "ABC:Division"    = "LABS"
     "ABC:Environment" = "Perf"
-    "ABC:CostCenter"  = "qbcore"
+    "ABC:CostCenter"  = "SRE"
     "ABC:Vended"      = "true"
     "ABC:Project"     = "SRE"
   }
